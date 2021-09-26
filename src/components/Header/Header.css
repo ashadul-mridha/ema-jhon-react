@@ -1,0 +1,24 @@
+.logo-box{
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-area{
+    background-color: black;
+    padding: 10px 0px;
+    padding-left: 50px;
+}
+.logo-area a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.logo-area a:hover{
+    background-color: wheat;
+    color: black;
+}

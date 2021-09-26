@@ -1,0 +1,13 @@
+.order-header h4{
+    text-align: center;
+}
+
+.order-header h2{
+    text-align: center;
+}
+
+.order_total{
+    color: brown;
+    font-size: 20px;
+    font-weight: 700;
+}
