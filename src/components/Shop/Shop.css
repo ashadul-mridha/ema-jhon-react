@@ -14,3 +14,16 @@
     border-left: 2px solid wheat;
     padding-left: 5px;
 }
+
+/* search product */
+
+.search-product{
+    text-align: center;
+    background-color: rgba(14, 13, 13, 0.86);
+    line-height: 3;
+}
+
+.search-product input{
+    padding: 8px 55px;
+    
+}

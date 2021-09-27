@@ -42,26 +42,28 @@ const Cart = (props) => {
 
             <br/>
             <table>
-                <tr>
-                    <td>Total Price </td>
-                    <td>$ {price}</td>
-                </tr>
-                <tr>
-                    <td>Shipping and Handling </td>
-                    <td>$ {shipping}</td>
-                </tr>
-                <tr>
-                    <td>Total Before Tax</td>
-                    <td>$ {totalBeforeTax}</td>
-                </tr>
-                <tr>
-                    <td>Estimated Tax</td>
-                    <td>$ {estimateTaxFloat}</td>
-                </tr>
-                <tr>
-                    <td className="order_total" >Order Total</td>
-                    <td className="order_total" >$ {totalOrderPriceFloat}</td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td>Total Price </td>
+                        <td>$ {price}</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping and Handling </td>
+                        <td>$ {shipping}</td>
+                    </tr>
+                    <tr>
+                        <td>Total Before Tax</td>
+                        <td>$ {totalBeforeTax}</td>
+                    </tr>
+                    <tr>
+                        <td>Estimated Tax</td>
+                        <td>$ {estimateTaxFloat}</td>
+                    </tr>
+                    <tr>
+                        <td className="order_total" >Order Total</td>
+                        <td className="order_total" >$ {totalOrderPriceFloat}</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     );
